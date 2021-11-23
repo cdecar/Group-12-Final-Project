@@ -72,3 +72,31 @@ h1{
   text-align: center;
   background-color: rgba(0,0,0,.45);
 }
+
+.exploreButton{
+ grid-column-start:1;
+ width: 150px;
+  grid-row-start: 4;
+  grid-row-end:  4;
+  background-color: rgba(0,0,0,.35);
+  margin: 0;
+  padding: 15px;
+}
+.eatButton{
+grid-column-start: 2;
+width:150px;
+  grid-row-start: 4;
+  grid-row-end:  4;
+  background-color: rgba(0,0,0,.35);
+  margin: 0;
+  padding: 15px;
+}
+.shoppingButton{
+ grid-column-start: 3;
+ width: 150px;
+  grid-row-start: 4;
+  grid-row-end:  4;
+  background-color: rgba(0,0,0,.35);
+  margin: 0;
+  padding: 15px;
+}
