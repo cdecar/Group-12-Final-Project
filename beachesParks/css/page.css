@@ -1,1 +1,22 @@
 
+h1 {
+  padding: 20px;
+  color: powderblue;
+  text-align: center;
+  font-family: courier;
+  font-size: 70px;
+  border-style: solid;
+  border-color: lightyellow;
+}
+
+
+body {
+  background-image: linear-gradient(white, lightblue);
+}
+
+#content {
+  color: gray;
+  font-family: fantasy;
+  border-style: solid;
+  border-color: lightyellow;
+}
