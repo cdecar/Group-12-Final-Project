@@ -6,9 +6,9 @@ $("h1").hover(function(){
 });
 
 $("p").hover(function(){
-  $(this).css("color", "DodgerBlue");
+  $(this).css("color", "LightBlue");
 }, function (){
-  $(this).css("color", "purple");
+  $(this).css("color", "SkyBlue");
 });
 
 $("titleFrame").hover(function(){

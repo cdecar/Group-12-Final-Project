@@ -14,7 +14,7 @@
 
 
 .mainText{
-  color: MediumSlateBlue;
+  color: white;
   display: fixed;
   margin-left: 80px;
   margin-top: 80px;
@@ -38,51 +38,58 @@ h1{
 
 .titleFrame{
   display: fixed;
+  top:0;
+  left:0;
   float: left;
   width: 100%;
-  margin: 0px;
-  padding: 5px;
+  margin: 5px;
+  padding: 15px;
   text-align: center;
   background-color: rgba(0,0,0,.35);
 }
 
 .bodyFrame{
-  top: 150px;
-  left:0;
+  top: 400px;
+  left:-30px;
   float: left;
   position: fixed;
-  font-size: 45px;
+  font-size: 30px;
   width:100%;
   margin: 0;
-  padding: 25px;
+  padding: 35px;
   text-align: center;
-  background-color: rgba(0,0,0,.45);
+  background-color:rgba(0,0,0,.35);
 }
 
-.exploreButton{
 
-  width: 150px;
-  bottom: 0px;
+ul{
   position: fixed;
-  background-color: rgba(0,0,0,.35);
-  margin: 0;
-  padding: 15px;
+  bottom:0;
+  left:0;
+  width: 100%;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: MediumSlateBlue;
 }
-.eatButton{
-  bottom: 0px;
-  right:650px;
-  position:fixed;
-  width:150px;
-  background-color: rgba(0,0,0,.35);
-  margin: 0;
-  padding: 15px;
-}
-.shoppingButton{
 
-  width: 150px;
-  position: fixed;
-  bottom: 0px;
-  background-color: rgba(0,0,0,.35);
-  margin: 0;
-  padding: 15px;
+.active{
+  background-color: DarkMagenta;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: CornflowerBlue;
 }
