@@ -11,6 +11,8 @@
      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
    />
 
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -37,19 +39,8 @@
           </div>
         </div>
 
-      <div class = "wow fadeIn" data-wow-duration = "3s" data-wow-delay = "4s">
-        <div class="image">
-          <img class="image__img" src="img/vegetables.jpg" alt="Bricks">
-          <div class="image__overlay image__overlay--primary">
-            <div class="title">Farmer's Market</div>
-            <p class="subtitle">
-            (whatever goes here)</p>
-          </div>
-        </div>
-      </div>
 
-      <div class = "wow fadeIn" data-wow-duration = "3s" data-wow-delay = "4s">
-        <div class="image">
+        <div class="image" data-aos="fade-right">
           <img class="image__img" src="img/vegetables.jpg" alt="Bricks">
           <div class="image__overlay image__overlay--primary">
             <div class="title">Farmer's Market</div>
@@ -57,10 +48,10 @@
             (whatever goes here)</p>
           </div>
         </div>
-      </div>
 
-      <div class = "wow fadeIn" data-wow-duration = "3s" data-wow-delay = "4s">
-        <div class="image">
+
+
+        <div class="image" data-aos="fade-left">
           <img class="image__img" src="img/vegetables.jpg" alt="Bricks">
           <div class="image__overlay image__overlay--primary">
             <div class="title">Farmer's Market</div>
@@ -68,12 +59,36 @@
             (whatever goes here)</p>
           </div>
         </div>
-      </div>
+
+
+        <div class="image" data-aos="fade-right">
+          <img class="image__img" src="img/vegetables.jpg" alt="Bricks">
+          <div class="image__overlay image__overlay--primary">
+            <div class="title">Farmer's Market</div>
+            <p class="subtitle">
+            (whatever goes here)</p>
+          </div>
+        </div>
+
 
       </div>
     </div>
   </div>
 
+  <ul>
+
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="beachesParks\index.html">Explore</a></li>
+    <li><a href="food\index.html">Food</a></li>
+    <li><a href="Events\index.html">Events</a></li>
+  </ul>
+
+  <script src="anime.min.js" ></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
