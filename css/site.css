@@ -1,30 +1,21 @@
 
 
-.framing{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  left: 0px;
-  top: 0px;
-  z-index: -1000;
-  overflow:hidden;
-}
+
+
 
 .videoPlayer{
-  min-height: 100%;
-  min-width: 100%;
-  position:absolute;
-  bottom: 0;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position:fixed;
   left: 0;
-  object-fit:cover;
+  top:0;
 }
 
 
 .mainText{
   color: MediumSlateBlue;
-  display: flex;
+  display: fixed;
   margin-left: 80px;
   margin-top: 80px;
   margin-right: 80px;
@@ -43,16 +34,11 @@ h1{
 
 }
 
-.sectionGrid{
-  display: grid;
-  grid-row-gap: 50px;
-  grid-column-gap: 50px;
-}
+
 
 .titleFrame{
+  display: fixed;
   float: left;
-  grid-row-start: 1;
-  grid-row-end: 2;
   width: 100%;
   margin: 0px;
   padding: 5px;
@@ -61,10 +47,10 @@ h1{
 }
 
 .bodyFrame{
-  grid-row-start: 2;
-  grid-row-end: 3;
+  top: 150px;
+  left:0;
   float: left;
-  position: relative;
+  position: fixed;
   font-size: 45px;
   width:100%;
   margin: 0;
@@ -74,28 +60,28 @@ h1{
 }
 
 .exploreButton{
- grid-column-start:1;
- width: 150px;
-  grid-row-start: 4;
-  grid-row-end:  4;
+
+  width: 150px;
+  bottom: 0px;
+  position: fixed;
   background-color: rgba(0,0,0,.35);
   margin: 0;
   padding: 15px;
 }
 .eatButton{
-grid-column-start: 2;
-width:150px;
-  grid-row-start: 4;
-  grid-row-end:  4;
+  bottom: 0px;
+  right:650px;
+  position:fixed;
+  width:150px;
   background-color: rgba(0,0,0,.35);
   margin: 0;
   padding: 15px;
 }
 .shoppingButton{
- grid-column-start: 3;
- width: 150px;
-  grid-row-start: 4;
-  grid-row-end:  4;
+
+  width: 150px;
+  position: fixed;
+  bottom: 0px;
   background-color: rgba(0,0,0,.35);
   margin: 0;
   padding: 15px;
