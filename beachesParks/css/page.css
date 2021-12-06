@@ -15,15 +15,15 @@ h1 {
 }
 
 div {
-  font-size: 20px;
+  font-size: 32px;
   font-family: monospace;
 }
 
 p {
-  font-size:20px;
+  font-size:18px;
   font-family: fantasy;
   color: lightyellow;
-  padding: 30px
+  padding: 5px
 }
 
 ul {
@@ -53,7 +53,7 @@ li a:hover {
 
 
 .outer {
-    height: 200px;
+    height: 300px;
     width: 95%;
     margin:20px;
 }
@@ -67,7 +67,7 @@ li a:hover {
 
 .image__img {
     display: block;
-    width: 100%;
+    width: 95%;
 }
 
 .image__overlay {
