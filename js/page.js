@@ -1,4 +1,9 @@
 
+$(document).ready(function(){
+  $()
+  $(".titleFrame").stop().Show();
+})
+
 
 $("h1").hover(function(){
   $(this).css("color", "purple");
