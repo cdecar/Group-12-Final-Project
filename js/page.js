@@ -1,15 +1,15 @@
 
-$(document).ready(function(){
-  $()
-  $(".titleFrame").stop().Show();
-})
+function showTitle(){
 
+  var revealTitle = document.getElementById("shown");
+  if(revealTitle.style.visibility == "hidden"){
+    revealTitle.style.visibility = "visible";
+  }
+  else{
+    revealTitle.style.visibility = "hidden";
+  }
+}
 
-$("h1").hover(function(){
-  $(this).css("color", "purple");
-}, function (){
-  $(this).css("color", "MediumSlateBlue");
-});
 
 $("p").hover(function(){
   $(this).css("color", "white");
