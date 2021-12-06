@@ -1,15 +1,15 @@
 
 
 $("p").hover(function(){
-  $(this).css("color", "white");
+  $(this).css("font-size", "40px");
 }, function (){
-  $(this).css("color", "Gray");
+  $(this).css("font-size", "30px");
 });
 
 $(".titleFrame").hover(function(){
-  $(this).css("color", "white");
+  $(this).css("font-size", "65px");
 }, function (){
-  $(this).css("color", "Gray");
+  $(this).css("font-size", "55px");
 });
 
 $("bodyFrame").hover(function(){

@@ -19,7 +19,7 @@
   margin-top: 80px;
   margin-right: 800px;
   margin-bottom: 80px;
-
+  color: white;
   font-family: Helvetica;
 
 }
@@ -27,8 +27,9 @@
 
 
 h1{
+  color: white;
   z-index: 1;
-  font-size: 55px;
+
     font-family: Segoe Print;
 }
 
@@ -36,6 +37,7 @@ h1{
 
 
 .titleFrame{
+  font-size: 55px;
   position: fixed;
   top:0;
   left:0;
