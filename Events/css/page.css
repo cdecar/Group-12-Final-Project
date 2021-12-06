@@ -72,6 +72,22 @@
   font-size: 30px;
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+a {
+  color: yellow;
+  background-color: transparent;
+}
+
 h1 {
   margin: 0px;
   padding: 20px;
