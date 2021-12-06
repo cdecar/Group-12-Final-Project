@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <link rel="stylesheet" type ="text/css" href="css/page.css">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/page.css">
     <script src="js/page.js" defer></script>
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
+
   <body>
 
-      <div id = "food">
-      <h1>Food and Restaurants</h1>
-      <p> Here are the lists of food and restaurants in Santa Cruz. </p>
-      <div id = "list">
-      <h1>Catagory 1</h1>
-      <div id = "column">
-      <img src="img/photo.png"><br>
-      <p> Restaurant A(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant B(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant C(..........)</p><br>
-      <img src="img/photo.png"><br>
-      <p> Restaurant D(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant E(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant F(..........)</p><br>
-      <img src="img/photo.png"><br>
-      <p> Restaurant G(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant H(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant I(..........)</p><br>
-      </div>
-      <h1>Catagory 2</h1>
-      <div id = "column">
-      <img src="img/photo.png"><br>
-      <p> Restaurant A(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant B(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant C(..........)</p><br>
-      <img src="img/photo.png"><br>
-      <p> Restaurant D(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant E(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant F(..........)</p><br>
-      <img src="img/photo.png"><br>
-      <p> Restaurant G(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant H(..........)</p>
-      <img src="img/photo.png"><br>
-      <p> Restaurant I(..........)</p><br>
-      </div>
-      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
+    <div class="outer">
+      <div class="inner">
 
+    <h1>Local Food and Restaurants</h1>
+    <div id="content">
+      <div class="image">
+        <img class="image__img" img src="https://cdn.vox-cdn.com/uploads/chorus_image/image/63091762/Bantam_Photo_Credit_Naveen_Hattis.0.jpg" alt="Bantam">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Bantam</div>
+            <p>Wood fired pizza on Santa Cruz's westside since 2012</p>
+            <a class="subtitle" href="http://bantam1010.com/" target="_blank" rel="noopener noreferrer">check out the website</a>
+         </div>
+      </div>
+      <div class="image">
+        <img class="image__img" img src="https://cdn.vox-cdn.com/thumbor/2rUg8492cV3nIVTIHW_OHQn735U=/0x0:1875x2500/1220x915/filters:focal(788x1100:1088x1400):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/70184234/IMG_9973_1.0.jpg" alt="Copal Restaurant">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Copal Restaurant</div>
+            <p>A Mexican oasis in Santa Cruz</p>
+            <a class="subtitle" href="https://www.copalrestaurant.com/" target="_blank" rel="noopener noreferrer">check out the website</a>
+        </div>
+      </div>
+      <div class="image">
+        <img class="image__img" img src="https://cdn.vox-cdn.com/thumbor/-MytdXyazfR0zk_Pnh2po5l-YPw=/0x0:800x1000/1220x915/filters:focal(313x255:441x383):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63091753/o.0.jpg" alt="The Penny Ice Creamery">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">The Penny Ice Creamery</div>
+            <p>ICE CREAM MADE FROM SCRATCH</p>
+            <a class="subtitle" href="https://www.thepennyicecreamery.com/" target="_blank" rel="noopener noreferrer">check out the website</a>
+        </div>
+      </div>
+      <div class="image">
+        <img class="image__img" img src="https://cdn.vox-cdn.com/thumbor/OUC97C1Gj6S3d6GiDbGs13Os24M=/0x0:4063x2998/1220x915/filters:focal(1707x1174:2357x1824):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63091757/Three_and_Three_Shrimp_and_Oyster_Plate.0.jpg" alt="Alderwood Santa Cruz">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Alderwood Santa Cruz</div>
+            <p>A gathering place for friends and family alike</p>
+            <a class="subtitle" href="https://www.alderwoodsantacruz.com/" target="_blank" rel="noopener noreferrer">check out the website</a>
+        </div>
+      </div>
+      <div class="image">
+        <img class="image__img" img src="https://cdn.vox-cdn.com/thumbor/wBx4f04q3scdqqF50l-66I6XSBA=/0x0:960x763/1220x915/filters:focal(404x306:556x458):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63091759/East_End_Gastropub_2_Courtesy_of_East_End_Gastropub.0.jpg" alt="East End Gastropub">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">East End Gastropub</div>
+            <p>Charming mix, combining comfort food with a fine dining finish in a modern and inviting space</p>
+            <a class="subtitle" href="https://www.eastendpub.com/" target="_blank" rel="noopener noreferrer">check out the website</a>
+        </div>
+      </div>
+      <div class="image">
+        <img class="image__img" img src="https://cdn.vox-cdn.com/thumbor/JOavZBnj6Cob03eBATP9am60IE8=/0x0:1080x720/1220x915/filters:focal(454x274:626x446):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63091756/Soif_Lamb_Photo_Credit_Alyssa_Twelker.0.jpg" alt="Soif">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Soif</div>
+            <p>Great Food, Wine + Drink in Downtown Santa Cruz</p>
+            <a class="subtitle" href="http://www.soifwine.com/" target="_blank" rel="noopener noreferrer">check out the website</a>
+        </div>
+      </div>
+</div>
+<div>
+  <ul>
+    <li><a href="https://cdecar.github.io/Group-12-Final-Project/index.html">Home</a></li>
+    <li><a href="https://cdecar.github.io/Group-12-Final-Project/Events/index.html">Events!</a></li>
+    <li><a href="https://cdecar.github.io/Group-12-Final-Project/food/index.html">Food!</a></li>
+  </ul>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<<<<<<< Updated upstream
+</body>
+=======
       <ul>
         <li><a href="https://cdecar.github.io/Group-12-Final-Project/index.html">Home</a></li>
-        <li><a href="https://cdecar.github.io/Group-12-Final-Project/beachesParks/index.html">Explore</a></li>
-        <li><a href="https://cdecar.github.io/Group-12-Final-Project/Events/index.html">Events</a></li>
-
+        <li><a href="https://www.google.com/maps/dir//36.952245,-122.057199/@36.951863,-122.1276835,12z">Map</a></li>
+        <li><a href="https://cdecar.github.io/Group-12-Final-Project/Events/index.html">Events!</a></li>
+        <li><a href="https://cdecar.github.io/Group-12-Final-Project/food/index.html">Food!</a></li>
       </ul>
-
-    </div>
+</div>
   </body>
+>>>>>>> Stashed changes
 </html>
