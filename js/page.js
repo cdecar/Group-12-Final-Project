@@ -1,4 +1,5 @@
 
+
 $("h1").hover(function(){
   $(this).css("color", "purple");
 }, function (){
@@ -6,9 +7,9 @@ $("h1").hover(function(){
 });
 
 $("p").hover(function(){
-  $(this).css("color", "DodgerBlue");
+  $(this).css("color", "white");
 }, function (){
-  $(this).css("color", "purple");
+  $(this).css("color", "Gray");
 });
 
 $("titleFrame").hover(function(){

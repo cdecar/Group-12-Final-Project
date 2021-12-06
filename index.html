@@ -6,42 +6,48 @@
  <title>Welcome to Santa Cruz!</title>
  <script src="js/page.js" defer></script>
  <link rel="stylesheet" type="text/css" href="css/site.css">
- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-<div class = "framing">
+
     <video autoplay muted loop class = "videoPlayer">
-      <source src="video/porchSunset.mp4" type="video/mp4">
+      <source src="video/beach.mp4" type="video/mp4">
     </video>
-</div>
+
 <div class ="mainText">
- <div class ="sectionGrid">
+
   <div class = "titleFrame">
     <h1>Welcome to Santa Cruz!</h1>
   </div>
+
   <div class = "bodyFrame">
     <p>Moving to a new place can be daunting, and for those who have transferred over to UCSC and have the added stress of classes, even more so. So to make that transition easier, we've made this website, a collection of places and things to do while in Santa Cruz!</p>
   </div>
 
-<div class = "exploreButton">
-  <a href = "beachesParks/index.html">
-    <button>Explore</button>
-  </a>
-</div>
+<ul>
 
-<div class = "eatButton">
-  <a href = "food/index.html">
-    <button>Eat</button>
-  </a>
-</div>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="beachesParks\index.html">Explore</a></li>
+  <li><a href="food\index.html">Food</a></li>
+  <li><a href="Events\index.html">Events</a></li>
+</ul>
 
-<div class= "shoppingButton">
-  <a href = "shoppingEvenets/index.html">
-    <button>Shop!</button>
-  </a>
-</div>
+
 
 </div>
-</div>
+
+<script src="anime.min.js" ></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
