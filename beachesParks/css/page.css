@@ -4,19 +4,27 @@ h1 {
   text-align: center;
   font-family: courier;
   font-size: 70px;
+  border-style: double;
+  border-color: green;
+  border-radius: 55px;
+  outline-color: green;
+  background-color: lightyellow
 }
 
-h2 {
+#content {
+  background-color: lightyellow;
+}
+
+div {
+  font-size: 30px;
   font-family: monospace;
-  font-size: 60px;
-  color: powderblue;
 }
 
 p {
-  font-size:30px;
+  font-size:40px;
   font-family: fantasy;
-  color: powderblue;
-  padding: 20px
+  color: lightyellow;
+  padding: 30px
 }
 
 ul {
@@ -41,7 +49,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: lightgray;
+  background-color: powderblue;
 }
 
 
@@ -53,8 +61,8 @@ li a:hover {
 
 .image {
     position: relative;
-    margin-top: 30px;
-    width: 60%;
+    margin-top: 50px;
+    width: 40%;
     object-fit: cover;
 }
 
@@ -67,7 +75,7 @@ li a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 250%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: lightyellow;
@@ -79,6 +87,7 @@ li a:hover {
     opacity: 0;
     transition: opacity 0.25s;
 }
+
 
 .image__overlay--blur {
     backdrop-filter: blur(5px);
