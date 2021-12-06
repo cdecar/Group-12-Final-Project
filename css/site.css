@@ -37,7 +37,7 @@ h1{
 
 
 .titleFrame{
-  display: fixed;
+  display: none;
   top:0;
   left:0;
   float: left;
@@ -45,7 +45,7 @@ h1{
   margin: 5px;
   padding: 15px;
   text-align: center;
-  background-color: rgba(0,0,0,.35);
+  background-color: rgba(0,0,0,.50);
 }
 
 .bodyFrame{

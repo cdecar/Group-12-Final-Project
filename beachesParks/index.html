@@ -4,33 +4,72 @@
     <link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/page.css">
     <script src="js/page.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+
   </head>
   <body>
-    <h1>Beaches and Nature</h1>
-    <div id="content">
-      <div id="Beaches">
-      <h2>Beaches</h2>
-      <p> Natural Bridges, Sunny Cove, Davenport </p>
+
+
+
+    <div class="container" data-0="transform:translateX(-31.5%);" data-1000="transform:translateX(-331.5%);">
+
+      <section>
+        <div class="pageContent">
+           <video autoplay muted loop class = "videoPlayer">
+            <source src="video/secondBeach.mp4" type="video/mp4">
+           </video>
+
+              <div class = "videoContent">
+                <h2>Beaches</h2>
+                <p>Here are just a few places to enjoy!</p>
+                <form action = "https://www.californiabeaches.com/beach/natural-bridges-state-beach/">
+                    <input type="submit" value="Natural Bridges">
+                </form>
+              </div>
+
+        </div>
+      </section>
+
+    <section>
+      <div class = "pageContent">
+        <video autoplay muted loop class = "videoPlayer">
+          <source src="video/parkScene.mp4" type="video/mp4">
+        </video>
+            <h2>Parks</h2>
+      </div>
+    </section>
+
+    <section>
+      <div class = "pageContent">
+        <video autoplay muted loop class = "videoPlayer">
+          <source src="video/trails.mp4" type="video/mp4">
+        </video>
+            <h2>Trails</h2>
+      </div>
+    </section>
+
+    <section>
+      <div class = "pageContent">
+        <video autoplay muted loop class = "videoPlayer">
+          <source src="video/santaCruz.mp4" type="video/mp4">
+        </video>
+            <h2>Scenic Views</h2>
       </div>
 
-      <div id="Parks">
-      <h2>Parks</h2>
-      <p> Garden of Eden, Neary Lagoon, East Cliff Drive </p>
-      </div>
-      <div id="Trails">
-      <h2>Trails</h2>
-      <p> Quail Hallow Ranch, Coastal Bluff Trail </p>
-      </div>
+    </div>
 
-      <div id="Scenic Views">
-      <h2>Scenic Views</h2>
-      <p> Santa Cruz Wharf, Capitola, The Light House </p>
-      </div>
+
+
       <ul>
         <li><a href="https://cdecar.github.io/Group-12-Final-Project/index.html">Home</a></li>
         <li><a href="https://cdecar.github.io/Group-12-Final-Project/Events/index.html">Shop!</a></li>
         <li><a href="https://cdecar.github.io/Group-12-Final-Project/food/index.html">Food!</a></li>
       </ul>
-    </div>
+
+      <script type="text/javascript" src="js/skrollr.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+
   </body>
 </html>

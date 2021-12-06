@@ -1,61 +1,84 @@
 
-h1 {
-  padding: 20px;
-  color: lightyellow;
-  text-align: center;
-  font-family: courier;
-  font-size: 70px;
-  border-style: solid;
-  border-color: gray;
-  border-radius: 55px;
-  outline-color: green;
-}
 
 
-body {
-  background-image: linear-gradient(lightblue, lightyellow);
-}
-
-#content {
-  border-style: solid;
-  border-color: gray;
-  border-radius: 12px;
-}
-
-h2 {
-  font-family: monospace;
-  font-size: 60px;
-  color: gray;
-}
-
-p {
-  font-size:30px;
-  font-family: fantasy;
-  color: gray;
-  padding: 20px
-}
-
-ul {
-  list-style-type: none;
+*{
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: gray;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-li {
+.container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+}
+
+.container section{
+  min-width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.videoPlayer{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+  left: 0;
+  top:0;
+}
+
+.container section .pageContent{
+  max-width: 800px;
+  padding: 40px;
+  text-align: center;
+}
+
+ul{
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100vw;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: MediumSlateBlue;
+}
+
+.active{
+  background-color: DarkMagenta;
+}
+
+li{
   float: left;
 }
 
-li a {
-  display: block;
+li a{
+  display:block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: lightgray;
+li a:hover{
+  background-color: CornflowerBlue;
+}
+
+.videoContent{
+  position: fixed;
+  top: 0;
+  left: 35vw;
+  justify-content: center;
+  text-align: center;
+  max-width: -width: 80vw;
+
 }
