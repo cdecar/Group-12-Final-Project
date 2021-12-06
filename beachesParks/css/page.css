@@ -6,8 +6,7 @@ h1 {
   font-size: 70px;
   border-style: double;
   border-color: green;
-  border-radius: 55px;
-  outline-color: green;
+  border-radius: 10px;
   background-color: lightyellow
 }
 
