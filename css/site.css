@@ -20,7 +20,7 @@
   margin-right: 80px;
   margin-bottom: 80px;
 
-  font-family: Segoe Print;
+  font-family: Helvetica;
 
 }
 
@@ -29,6 +29,7 @@
 h1{
   z-index: 1;
   font-size: 55px;
+    font-family: Segoe Print;
 }
 
 
@@ -52,8 +53,9 @@ h1{
   float: left;
   position: fixed;
   font-size: 30px;
-  width:100%;
-  margin: 0;
+  height: 50vh;
+  width:100vw;
+  margin: 80px;
   padding: 35px;
   text-align: center;
   background-color:rgba(0,0,0,.35);
