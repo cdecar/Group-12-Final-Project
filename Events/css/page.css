@@ -82,6 +82,7 @@ a {
 
 .title {
   font-size: 45px;
+  margin-bottom: 20px;
 }
 
 .subtitle {
@@ -95,8 +96,6 @@ h1 {
   text-align: center;
   font-family: "helvetica";
   font-size: 70px;
-  border-style: solid;
-  border-color: grey;
 }
 
 body {
