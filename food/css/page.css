@@ -1,34 +1,43 @@
+body {
+  background-color: #808080;
+}
 
 
+#food {
+  font-family: "cosmic sans";
+  background-color:  #facade;
+  width: 1500px;
+  height: 1500px;
+  padding: 50px;
+  margin: 30px;
+  font-size: 15px;
+  border-radius:10px;
+}
 
-ul{
-  position: fixed;
-  bottom:0;
-  left:0;
-  width: 100%;
+#column {
+  column-count: 3;
+}
+
+ul {
   list-style-type: none;
-  margin:0;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: MediumSlateBlue;
 }
 
-.active{
-  background-color: DarkMagenta;
-}
-
-li{
+li {
   float: left;
 }
 
-li a{
-  display:block;
-  color: white;
+li a {
+  display: block;
+  color: red;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover{
-  background-color: CornflowerBlue;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightgray;
 }

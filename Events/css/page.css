@@ -4,6 +4,22 @@
     margin:20px;
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+a {
+  color: yellow;
+  background-color: transparent;
+}
+
 .image {
     position: relative;
     margin-top: 20px;
@@ -69,7 +85,7 @@
 }
 
 .subtitle {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h1 {
