@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="../css/site.css">
     <link rel="stylesheet" type="text/css" href="css/page.css">
     <script src="js/page.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+
     <link
      rel="stylesheet"
      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -15,73 +15,67 @@
   </head>
   <body>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
+    <div class="outer">
+      <div class="inner">
+    <h1>Beaches and Nature</h1>
 
-    <div class="container" data-0="transform:translateX(-31.5%);" data-1000="transform:translateX(-331.5%);">
+    <div id="content">
 
-      <section>
-        <div class="pageContent">
-           <video autoplay muted loop class = "videoPlayer">
-            <source src="video/secondBeach.mp4" type="video/mp4">
-           </video>
-
-              <div class = "videoContent">
-                <h2>Beaches</h2>
-                <p>Here are just a few places to enjoy!</p>
-                <form action = "https://www.californiabeaches.com/beach/natural-bridges-state-beach/">
-                    <input type="submit" value="Natural Bridges">
-                </form>
-              </div>
-
+      <div class="image">
+        <img class="image__img" img src="https://clipart.world/wp-content/uploads/2020/08/chair-and-umbrella-on-tropical-beach.jpg" alt="Beaches">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Beaches</div>
+          <p class="subtitle">
+          NATURAL BRIDGES- This park and beach is an excellent vantage point for viewing shore birds, migrating whales, as well as seals and otters playing offshore
+          Beach Hours:8am to Sunset</p>
+          <p> SUNNY COVE- Cove Beach is in a deep cove filled with sand in eastern Santa Cruz, CA.</p>
         </div>
-      </section>
-
-    <section>
-      <div class = "pageContent">
-        <video autoplay muted loop class = "videoPlayer">
-          <source src="video/parkScene.mp4" type="video/mp4">
-        </video>
-            <h2>Parks</h2>
-      </div>
-    </section>
-
-    <section>
-      <div class = "pageContent">
-        <video autoplay muted loop class = "videoPlayer">
-          <source src="video/trails.mp4" type="video/mp4">
-        </video>
-            <h2>Trails</h2>
-      </div>
-    </section>
-
-    <section>
-      <div class = "pageContent">
-        <video autoplay muted loop class = "videoPlayer">
-          <source src="video/santaCruz.mp4" type="video/mp4">
-        </video>
-            <h2>Scenic Views</h2>
       </div>
 
-    </div>
+
+      <div class="image" data-aos="fade-right">
+        <img class="image__img" img src="https://thumbs.dreamstime.com/b/amusement-park-beach-illustration-153779348.jpg" alt="Parks">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Parks</div>
+          <p class="subtitle">
+           Garden of Eden, Neary Lagoon, East Cliff Drive </p>
+      </div>
+      </div>
+
+      <div class="image" data-aos="fade-right">
+        <img class="image__img" img src="https://media.istockphoto.com/vectors/beautiful-forest-landscape-vector-id1225819120?k=20&m=1225819120&s=612x612&w=0&h=9nXwSr5qziL_NlvjOJ0czkJ5FbWuHjBJz2E-HdMYEBM=" alt="Parks">
+        <div class="image__overlay image__overlay--primary">
+          <div class="title">Trails</div>
+          <p class="subtitle">
+           Quail Hallow Ranch, Coastal Bluff Trail </p>
+      </div>
+      </div>
 
 
+      <div class="image" data-aos="fade-right">
+        <img class="image__img" img src="https://media.istockphoto.com/vectors/scenic-view-from-stone-cliff-top-on-water-surface-vector-id1205539805?k=20&m=1205539805&s=612x612&w=0&h=1Hz8eFcZR-czCteCpLz2C_Xi6R0YiJsw1x8mPPq6oqc=" alt="Parks">
+        <div class="image__overlay image__overlay--primary">
+            <div class="title">Scenic Views</div>
+            <p class="subtitle">
+             Santa Cruz Wharf, Capitola, The Light House</p>
+      </div>
+      </div>
 
-      <ul>
-        <li><a href="https://cdecar.github.io/Group-12-Final-Project/index.html">Home</a></li>
-        <li><a href="https://cdecar.github.io/Group-12-Final-Project/Events/index.html">Events!</a></li>
-        <li><a href="https://cdecar.github.io/Group-12-Final-Project/food/index.html">Food!</a></li>
-      </ul>
+  <ul>
+    <li><a href="https://cdecar.github.io/Group-12-Final-Project/index.html">Home</a></li>
+    <li><a href="https://cdecar.github.io/Group-12-Final-Project/Events/index.html">Events!</a></li>
+    <li><a href="https://cdecar.github.io/Group-12-Final-Project/food/index.html">Food!</a></li>
+  </ul>
 
-      <script type="text/javascript" src="js/skrollr.js"></script>
-	<script type="text/javascript">
-	var s = skrollr.init();
-	</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
-
-  </body>
+</body>
 </html>

@@ -1,86 +1,75 @@
 
+h1 {
+  color: powderblue;
+  text-align: center;
+  font-family: courier;
+  font-size: 70px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 0px;
+  background-color: lightyellow
+}
 
+#content {
+  background-color: lightyellow;
+}
 
-*{
+div {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+p {
+  font-size:20px;
+  font-family: fantasy;
+  color: lightyellow;
+  padding: 30px
+}
+
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-.container{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  display: flex;
-}
-
-.container section{
-  min-width: 100vw;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
-}
-
-.videoPlayer{
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position:relative;
-  left: 0;
-  top:0;
-}
-
-.container section .pageContent{
-  max-width: 800px;
-  padding: 40px;
-  text-align: center;
-}
-
-ul{
-  position: fixed;
-  bottom:0;
-  left:0;
-  width: 100vw;
-  list-style-type: none;
-  margin:0;
-  padding: 0;
   overflow: hidden;
-  background-color: MediumSlateBlue;
+  background-color: gray;
 }
 
-.active{
-  background-color: DarkMagenta;
-}
-
-li{
+li {
   float: left;
 }
 
-li a{
-  display:block;
+li a {
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover{
-  background-color: CornflowerBlue;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: powderblue;
 }
 
-.videoContent{
-  position: fixed;
-  top: 0;
-  left: 35vw;
-  justify-content: center;
-  text-align: center;
-  max-width: -width: 80vw;
+
+.outer {
+    height: 200px;
+    width: 95%;
+    margin:20px;
 }
+
+.image {
+    position: relative;
+    margin-top: 50px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
 .image__overlay {
     position: absolute;
     top: 0;
@@ -98,4 +87,24 @@ li a:hover{
     transition: opacity 0.25s;
 }
 
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: #009578;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
 }
