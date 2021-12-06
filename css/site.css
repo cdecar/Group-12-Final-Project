@@ -1,8 +1,3 @@
-
-
-
-
-
 .videoPlayer{
   object-fit: cover;
   width: 100vw;
@@ -11,7 +6,6 @@
   left: 0;
   top:0;
 }
-
 
 .mainText{
   color: Gray;
@@ -25,16 +19,12 @@
 
 }
 
-
-
 h1{
   z-index: 1;
   font-size: 55px;
 
 
 }
-
-
 
 .titleFrame{
   display: fixed;
@@ -60,7 +50,6 @@ h1{
   text-align: center;
   background-color:rgba(0,0,0,.35);
 }
-
 
 ul{
   position: fixed;
